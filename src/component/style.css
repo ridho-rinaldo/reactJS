@@ -1,0 +1,17 @@
+.background::after {
+    border-radius: 0%;
+    box-shadow: none;
+    background-color: blueviolet;
+}
+
+.row {
+    content: "";
+    display: flex;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
